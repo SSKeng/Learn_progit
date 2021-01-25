@@ -68,3 +68,12 @@ $git read-tree --prefix=bak d8329fc1cc938780ffdd9f94e0d364e0ea74f579
 
 ### 提交对象
 
+用于指定SHA-1值，保存快照，记录保存快照时间，以及为什么保存。
+
+~~~
+$echo 'first commit' | git commit-tree d8329f
+7ba1604fef6bdd15d7adc1ade0c0039e6dd13671
+~~~
+
+
+
